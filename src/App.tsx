@@ -14,7 +14,7 @@ function App() {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    fetch('https://https://micropersonasbackend-rukk.onrender.com/api/personas')
+    fetch('https://micropersonasbackend-rukk.onrender.com/api/personas')
    
       .then((res) => res.json())
       .then((data) => {
